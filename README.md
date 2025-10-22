@@ -1,4 +1,4 @@
-# 🗺️ 30-DAGEN ROADMAP – C# / .NET (Medior Niveau)
+# 🗺️ 30-DAGEN ROADMAP – C# / .NET 
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet?logo=dotnet)
 ![C#](https://img.shields.io/badge/C%23-Intermediate-green?logo=csharp)
