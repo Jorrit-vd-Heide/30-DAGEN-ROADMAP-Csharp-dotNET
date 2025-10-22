@@ -1,0 +1,15 @@
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\bin\Debug\net10.0\Day03_NumberGuess.exe
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\bin\Debug\net10.0\Day03_NumberGuess.deps.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\bin\Debug\net10.0\Day03_NumberGuess.runtimeconfig.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\bin\Debug\net10.0\Day03_NumberGuess.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\bin\Debug\net10.0\Day03_NumberGuess.pdb
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\obj\Debug\net10.0\Day03_NumberGuess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\obj\Debug\net10.0\Day03_NumberGuess.AssemblyInfoInputs.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\obj\Debug\net10.0\Day03_NumberGuess.AssemblyInfo.cs
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\obj\Debug\net10.0\Day03_NumberGuess.csproj.CoreCompileInputs.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\obj\Debug\net10.0\Day03_NumberGuess.sourcelink.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\obj\Debug\net10.0\Day03_NumberGuess.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\obj\Debug\net10.0\refint\Day03_NumberGuess.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\obj\Debug\net10.0\Day03_NumberGuess.pdb
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\obj\Debug\net10.0\Day03_NumberGuess.genruntimeconfig.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\day03_NumberGuess\obj\Debug\net10.0\ref\Day03_NumberGuess.dll

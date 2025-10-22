@@ -1,5 +1,3 @@
-using System;
-
 namespace RekenMachine
 {
   public static class Calculator

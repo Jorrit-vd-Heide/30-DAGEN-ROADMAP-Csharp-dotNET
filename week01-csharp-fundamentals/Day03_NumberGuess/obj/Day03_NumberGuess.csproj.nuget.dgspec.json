@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jorrit\\source\\repos\\Projects\\30-DAGEN-ROADMAP-Csharp-dotNET\\week01-csharp-fundamentals\\Day03_NumberGuess\\Day03_NumberGuess.csproj": {}
+    "C:\\Users\\Jorrit\\source\\repos\\Projects\\30-DAGEN-ROADMAP-Csharp-dotNET\\week01-csharp-fundamentals\\day03_NumberGuess\\Day03_NumberGuess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jorrit\\source\\repos\\Projects\\30-DAGEN-ROADMAP-Csharp-dotNET\\week01-csharp-fundamentals\\Day03_NumberGuess\\Day03_NumberGuess.csproj": {
+    "C:\\Users\\Jorrit\\source\\repos\\Projects\\30-DAGEN-ROADMAP-Csharp-dotNET\\week01-csharp-fundamentals\\day03_NumberGuess\\Day03_NumberGuess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jorrit\\source\\repos\\Projects\\30-DAGEN-ROADMAP-Csharp-dotNET\\week01-csharp-fundamentals\\Day03_NumberGuess\\Day03_NumberGuess.csproj",
+        "projectUniqueName": "C:\\Users\\Jorrit\\source\\repos\\Projects\\30-DAGEN-ROADMAP-Csharp-dotNET\\week01-csharp-fundamentals\\day03_NumberGuess\\Day03_NumberGuess.csproj",
         "projectName": "Day03_NumberGuess",
-        "projectPath": "C:\\Users\\Jorrit\\source\\repos\\Projects\\30-DAGEN-ROADMAP-Csharp-dotNET\\week01-csharp-fundamentals\\Day03_NumberGuess\\Day03_NumberGuess.csproj",
+        "projectPath": "C:\\Users\\Jorrit\\source\\repos\\Projects\\30-DAGEN-ROADMAP-Csharp-dotNET\\week01-csharp-fundamentals\\day03_NumberGuess\\Day03_NumberGuess.csproj",
         "packagesPath": "C:\\Users\\Jorrit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jorrit\\source\\repos\\Projects\\30-DAGEN-ROADMAP-Csharp-dotNET\\week01-csharp-fundamentals\\Day03_NumberGuess\\obj\\",
+        "outputPath": "C:\\Users\\Jorrit\\source\\repos\\Projects\\30-DAGEN-ROADMAP-Csharp-dotNET\\week01-csharp-fundamentals\\day03_NumberGuess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
