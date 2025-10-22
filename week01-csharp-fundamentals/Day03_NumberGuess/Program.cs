@@ -4,7 +4,7 @@
   {
     static void Main(string[] args)
     {
-      int randomNumber = new Random().Next(1, 100);
+      int randomNumber = new Random().Next(1, 101); // willekeurig getal tussen 1 en 100
       int userGuess = 0;
       Console.WriteLine("Welkom bij het Getallen Raadspel!");
       while (userGuess != randomNumber)
@@ -17,18 +17,23 @@
           continue;
         }
 
-        if (userGuess < randomNumber)
+        // Lokale functie voor vergelijking
+        void Comparison(int randomNumber, int userGuess)
         {
-          Console.WriteLine("Te laag! Probeer het opnieuw.");
+          switch (userGuess)
+          {
+            case var n when n < randomNumber:
+              Console.WriteLine("Te laag! Probeer het opnieuw.");
+              break;
+            case var n when n > randomNumber:
+              Console.WriteLine("Te hoog! Probeer het opnieuw.");
+              break;
+            default:
+              Console.WriteLine("Gefeliciteerd! Je hebt het juiste getal geraden!");
+              break;
+          }
         }
-        else if (userGuess > randomNumber)
-        {
-          Console.WriteLine("Te hoog! Probeer het opnieuw.");
-        }
-        else
-        {
-          Console.WriteLine("Gefeliciteerd! Je hebt het juiste getal geraden!");
-        }
+        Comparison(randomNumber, userGuess);
       }
     }
   }
