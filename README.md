@@ -45,7 +45,7 @@ Na deze roadmap kun je:
 | 3 | Control flow: if, switch, loops | Bouw nummerraadspel (random number, gebruiker raadt). | [Microsoft Learn: Control statements](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/selection-statements) |
 | 4 | Methods & scope | Refactor rekenmachine in losse methods. | — |
 | 5 | Classes & objects | Bouw class `Car` met eigenschappen (merk, snelheid) en methoden. | [Microsoft Learn: Classes and Objects](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/) |
-| 6 | Inheritance & interfaces | Maak `Animal`, `Dog`, `Cat` met interface `ISound`. | — |
+| 6 | Inheritance & interfaces | Maak `Animal`, `Dog`, `Cat` met interface `ISound`. | [W3Schools C# Interface](https://www.w3schools.com/cs/cs_interface.php) [Microsoft Learn: Inheritance](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/inheritance) |
 | 7 | Mini-project: ToDo App | Console ToDo (CRUD in memory) met lijst en LINQ. | — |
 
 ---
