@@ -60,12 +60,12 @@
       "stopAtEntry": false
     },
     {
-      "name": ".NET Launch (Day06_Inheritence_Interfaces)",
+      "name": ".NET Launch (Day06_Inheritance_Interfaces)",
       "type": "coreclr",
       "request": "launch",
-      "program": "${workspaceFolder}/Day06_Inheritence_Interfaces/bin/Debug/net10.0/day06_Inheritence_interfaces.dll",
+      "program": "${workspaceFolder}/Day06_Inheritance_Interfaces/bin/Debug/net10.0/day06_Inheritance_interfaces.dll",
       "args": [],
-      "cwd": "${workspaceFolder}/Day06_Inheritence_Interfaces",
+      "cwd": "${workspaceFolder}/Day06_Inheritance_Interfaces",
       "console": "integratedTerminal",
       "preLaunchTask": "build",
       "stopAtEntry": false
@@ -80,7 +80,7 @@
         ".NET Launch (Day03_NumberGuess)",
         ".NET Launch (Day04_RefactorCalculator)",
         ".NET Launch (Day05_ClassesObjects)",
-        ".NET Launch (Day06_Inheritence_Interfaces)"
+        ".NET Launch (Day06_Inheritance_Interfaces)"
       ]
     }
   ]

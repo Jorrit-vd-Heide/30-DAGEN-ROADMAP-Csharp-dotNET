@@ -1,0 +1,15 @@
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\bin\Debug\net10.0\day06_Inheritance_interfaces.exe
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\bin\Debug\net10.0\day06_Inheritance_interfaces.deps.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\bin\Debug\net10.0\day06_Inheritance_interfaces.runtimeconfig.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\bin\Debug\net10.0\day06_Inheritance_interfaces.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\bin\Debug\net10.0\day06_Inheritance_interfaces.pdb
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\obj\Debug\net10.0\day06_Inheritance_interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\obj\Debug\net10.0\day06_Inheritance_interfaces.AssemblyInfoInputs.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\obj\Debug\net10.0\day06_Inheritance_interfaces.AssemblyInfo.cs
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\obj\Debug\net10.0\day06_Inheritance_interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\obj\Debug\net10.0\day06_Inheritance_interfaces.sourcelink.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\obj\Debug\net10.0\day06_Inheritance_interfaces.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\obj\Debug\net10.0\refint\day06_Inheritance_interfaces.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\obj\Debug\net10.0\day06_Inheritance_interfaces.pdb
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\obj\Debug\net10.0\day06_Inheritance_interfaces.genruntimeconfig.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day06_Inheritance_Interfaces\obj\Debug\net10.0\ref\day06_Inheritance_interfaces.dll
