@@ -1,0 +1,63 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Launch (Day01_HelloWorld)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/Day01_HelloWorld/bin/Debug/net10.0/Day01_HelloWorld.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Day01_HelloWorld",
+      "console": "integratedTerminal",
+      "preLaunchTask": "build",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Launch (Day02_Calculator)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/Day02_Calculator/bin/Debug/net10.0/RekenMachine.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Day02_Calculator",
+      "console": "integratedTerminal",
+      "preLaunchTask": "build",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Launch (Day03_NumberGuess)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/Day03_NumberGuess/bin/Debug/net10.0/Day03_NumberGuess.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Day03_NumberGuess",
+      "console": "integratedTerminal",
+      "preLaunchTask": "build",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Launch (Day04_RefactorCalculator)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/Day04_RefactorCalculator/bin/Debug/net10.0/RekenMachine.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Day04_RefactorCalculator",
+      "console": "integratedTerminal",
+      "preLaunchTask": "build",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Launch (Day05_ClassesObjects)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/Day05_ClassesObjects/bin/Debug/net10.0/day05_classesobjects.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Day05_ClassesObjects",
+      "console": "integratedTerminal",
+      "preLaunchTask": "build",
+      "stopAtEntry": false
+    }
+  ]
+}

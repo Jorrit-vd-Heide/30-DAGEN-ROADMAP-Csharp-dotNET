@@ -1,0 +1,15 @@
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\bin\Debug\net10.0\day05_classesobjects.exe
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\bin\Debug\net10.0\day05_classesobjects.deps.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\bin\Debug\net10.0\day05_classesobjects.runtimeconfig.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\bin\Debug\net10.0\day05_classesobjects.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\bin\Debug\net10.0\day05_classesobjects.pdb
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\obj\Debug\net10.0\day05_classesobjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\obj\Debug\net10.0\day05_classesobjects.AssemblyInfoInputs.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\obj\Debug\net10.0\day05_classesobjects.AssemblyInfo.cs
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\obj\Debug\net10.0\day05_classesobjects.csproj.CoreCompileInputs.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\obj\Debug\net10.0\day05_classesobjects.sourcelink.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\obj\Debug\net10.0\day05_classesobjects.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\obj\Debug\net10.0\refint\day05_classesobjects.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\obj\Debug\net10.0\day05_classesobjects.pdb
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\obj\Debug\net10.0\day05_classesobjects.genruntimeconfig.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day05_ClassesObjects\obj\Debug\net10.0\ref\day05_classesobjects.dll

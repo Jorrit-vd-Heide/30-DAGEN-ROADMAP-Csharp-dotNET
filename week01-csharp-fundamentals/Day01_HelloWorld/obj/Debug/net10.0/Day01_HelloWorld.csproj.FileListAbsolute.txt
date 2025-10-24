@@ -1,0 +1,15 @@
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\bin\Debug\net10.0\Day01_HelloWorld.exe
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\bin\Debug\net10.0\Day01_HelloWorld.deps.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\bin\Debug\net10.0\Day01_HelloWorld.runtimeconfig.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\bin\Debug\net10.0\Day01_HelloWorld.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\bin\Debug\net10.0\Day01_HelloWorld.pdb
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\obj\Debug\net10.0\Day01_HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\obj\Debug\net10.0\Day01_HelloWorld.AssemblyInfoInputs.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\obj\Debug\net10.0\Day01_HelloWorld.AssemblyInfo.cs
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\obj\Debug\net10.0\Day01_HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\obj\Debug\net10.0\Day01_HelloWorld.sourcelink.json
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\obj\Debug\net10.0\Day01_HelloWorld.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\obj\Debug\net10.0\refint\Day01_HelloWorld.dll
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\obj\Debug\net10.0\Day01_HelloWorld.pdb
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\obj\Debug\net10.0\Day01_HelloWorld.genruntimeconfig.cache
+C:\Users\Jorrit\source\repos\Projects\30-DAGEN-ROADMAP-Csharp-dotNET\week01-csharp-fundamentals\Day01_HelloWorld\obj\Debug\net10.0\ref\Day01_HelloWorld.dll
