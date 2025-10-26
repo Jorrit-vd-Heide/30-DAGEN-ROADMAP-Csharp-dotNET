@@ -2,7 +2,7 @@
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet?logo=dotnet)
 ![C#](https://img.shields.io/badge/C%23-Intermediate-green?logo=csharp)
-![Visual Studio_Code](https://img.shields.io/badge/IDE-Visual%20Studio%202022-blue?logo=visualstudio)
+![Visual Studio_Code]([https://img.shields.io/badge/IDE-Visual%20Studio%202022-blue?logo=visualstudio](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=plastic))
 ![GitHub](https://img.shields.io/badge/Version%20Control-GitHub-black?logo=github)
 
 ---
