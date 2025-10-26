@@ -11,7 +11,8 @@ namespace ConsoleApp
     public bool IsCompleted { get; set; }
     public override string ToString()
     {
-      return $"{Id}. {Title} - {(IsCompleted ? "✔ Voltooid" : "❌ Openstaand")}";
+      string status = IsCompleted ? "[Voltooid]" : "[Openstaand]";
+      return $"{Id}. {Title} - {status}";
     }
   }
 
@@ -39,13 +40,13 @@ namespace ConsoleApp
         switch (choice)
         {
           case "1":
-            //ViewTasks();
+            ViewTasks();
             break;
           case "2":
             AddTask();
             break;
           case "3":
-            //UpdateTask();
+            UpdateTask();
             break;
           case "4":
             //DeleteTask();
@@ -80,11 +81,81 @@ namespace ConsoleApp
         IsCompleted = false
       });
 
-      Console.WriteLine("Taak toegevoegd! Druk op een toets om terug te keren naar het menu.");
-      ReadEnterKey();
+      Console.WriteLine("Taak toegevoegd!");
+      NextKey();
     }
 
-    private void ReadEnterKey()
+    // Read Tasks
+    private void ViewTasks()
+    {
+      Console.Clear();
+      Console.WriteLine("=== Alle taken ===");
+      if (toDoList.Count == 0)
+      {
+        Console.WriteLine("Geen taken gevonden.");
+      }
+      else
+      {
+        Console.WriteLine("=== Taken ===");
+        foreach (var item in toDoList)
+        {
+          Console.WriteLine(item.ToString());
+        }
+      }
+      NextKey();
+    }
+
+    // Update Tasks
+    private void UpdateTask()
+    {
+      Console.Clear();
+      Console.WriteLine("=== Werk een taak bij ===");
+      Console.Write("Voer het ID van de taak in die je wilt bijwerken: ");
+      if (int.TryParse(Console.ReadLine(), out int id))
+      {
+        var item = toDoList.FirstOrDefault(t => t.Id == id);
+        if (item != null)
+        {
+          Console.Write("Nieuwe titel (laat leeg om ongewijzigd te laten): ");
+          string title = Console.ReadLine() ?? "";
+          if (!string.IsNullOrWhiteSpace(title))
+          {
+            item.Title = title;
+          }
+
+          Console.Write("Nieuwe beschrijving (laat leeg om ongewijzigd te laten): ");
+          string description = Console.ReadLine() ?? "";
+          if (!string.IsNullOrWhiteSpace(description))
+          {
+            item.Description = description;
+          }
+
+          Console.Write("Is de taak voltooid? (y/n): ");
+          string isCompletedInput = Console.ReadLine() ?? "";
+          if (isCompletedInput.ToLower() == "y")
+          {
+            item.IsCompleted = true;
+          }
+          else if (isCompletedInput.ToLower() == "n")
+          {
+            item.IsCompleted = false;
+          }
+
+          Console.WriteLine("Taak bijgewerkt!");
+        }
+        else
+        {
+          Console.WriteLine("Taak niet gevonden.");
+        }
+      }
+      else
+      {
+        Console.WriteLine("Ongeldig ID.");
+      }
+      NextKey();
+    }
+
+    private static void NextKey()
     {
       Console.WriteLine("\nDruk op een toets om verder te gaan...");
       Console.ReadKey();
