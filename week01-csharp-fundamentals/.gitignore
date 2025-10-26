@@ -1,0 +1,28 @@
+## Ignore build outputs
+# Ignore binaries and object files produced by builds
+**/bin/
+**/obj/
+
+# Visual Studio temporary files, user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code workspace settings (optional to ignore)
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+
+# Test results
+TestResults/
+
+# Logs
+*.log
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
