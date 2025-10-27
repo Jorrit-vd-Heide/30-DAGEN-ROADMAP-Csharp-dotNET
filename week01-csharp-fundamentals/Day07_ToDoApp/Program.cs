@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace ConsoleApp
 {
@@ -49,7 +50,7 @@ namespace ConsoleApp
             UpdateTask();
             break;
           case "4":
-            //DeleteTask();
+            DeleteTask();
             break;
           case "5":
             //SearchTasks();
@@ -146,6 +147,37 @@ namespace ConsoleApp
         else
         {
           Console.WriteLine("Taak niet gevonden.");
+        }
+      }
+      else
+      {
+        Console.WriteLine("Ongeldig ID.");
+      }
+      NextKey();
+    }
+
+    // Delete Tasks
+    private void DeleteTask()
+    {
+      Console.Clear();
+      Console.WriteLine("=== Verwijder een taak ===");
+      Console.Write("Voer het ID van de taak in die je wilt verwijderen: ");
+      if (int.TryParse(Console.ReadLine(), out int id))
+      {
+        var item = toDoList.FirstOrDefault(t => t.Id == id);
+        if (item != null)
+        {
+          Console.Write("Weet je zeker dat je deze taak wilt verwijderen? (y/n): ");
+          string confirm = Console.ReadLine() ?? "";
+          if (confirm.ToLower() == "y")
+          {
+            toDoList.Remove(item);
+            Console.WriteLine("Taak verwijderd!");
+          }
+          else
+          {
+            Console.WriteLine("Verwijdering geannuleerd.");
+          }
         }
       }
       else
