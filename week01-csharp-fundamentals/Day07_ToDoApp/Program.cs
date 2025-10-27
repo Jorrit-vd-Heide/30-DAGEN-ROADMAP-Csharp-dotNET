@@ -13,7 +13,7 @@ namespace ConsoleApp
     public override string ToString()
     {
       string status = IsCompleted ? "[Voltooid]" : "[Openstaand]";
-      return $"{Id}. {Title} - {status}";
+      return $"{Id}. Titel: {Title} - Status: {status} - Beschrijving: {Description}";
     }
   }
 
@@ -53,7 +53,7 @@ namespace ConsoleApp
             DeleteTask();
             break;
           case "5":
-            //SearchTasks();
+            SearchTask();
             break;
           case "6":
             return;
@@ -156,7 +156,7 @@ namespace ConsoleApp
       NextKey();
     }
 
-    // Delete Tasks
+    // Delete Task
     private void DeleteTask()
     {
       Console.Clear();
@@ -186,6 +186,35 @@ namespace ConsoleApp
       }
       NextKey();
     }
+
+    // Search Task using LINQ
+    private void SearchTask()
+    {
+      Console.Clear();
+      Console.WriteLine("=== Zoek taken ===");
+      Console.Write("Voer zoekterm in: ");
+      string searchTerm = Console.ReadLine() ?? "";
+
+      var results = toDoList
+        .Where(t => (t.Title != null && t.Title.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)) ||
+                    (t.Description != null && t.Description.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)))
+        .ToList();
+
+      if (results.Count == 0)
+      {
+        Console.WriteLine("Geen taken gevonden die overeenkomen met de zoekterm.");
+      }
+      else
+      {
+        Console.WriteLine("Gevonden taken:");
+        foreach (var item in results)
+        {
+          Console.WriteLine(item.ToString());
+        }
+      }
+      NextKey();
+    }
+
 
     private static void NextKey()
     {
