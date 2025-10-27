@@ -55,7 +55,7 @@ Na deze roadmap kun je:
 
 | Dag | Onderwerp | Oefening | Bronnen |
 |-----|------------|-----------|----------|
-| 8 | Collections & Generics | Gebruik `List<T>`, `Dictionary<TKey, TValue>` in kleine voorbeelden. | [Collections in C#](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/collections/) |
+| 8 | Collections & Generics | Gebruik `List<T>`, `Dictionary<TKey, TValue>` in kleine voorbeelden. | [Collections in C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/list-collection) |
 | 9 | Exceptions & try/catch | Breid ToDo App uit met foutafhandeling (lege invoer, invalid ID). | — |
 | 10 | LINQ basics | Filter & sorteer ToDo’s via LINQ. | [LINQ Tutorial](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/) |
 | 11 | Async & await | Bouw mini “API call simulator” met `Task.Delay`. | — |
