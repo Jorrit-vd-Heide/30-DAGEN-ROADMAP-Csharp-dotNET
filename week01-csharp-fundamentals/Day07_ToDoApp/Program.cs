@@ -64,7 +64,7 @@ namespace ConsoleApp
       }
     }
 
-    // Add Task method
+    // Add Tasks method
     private void AddTask()
     {
       Console.Clear();
@@ -156,7 +156,7 @@ namespace ConsoleApp
       NextKey();
     }
 
-    // Delete Task
+    // Delete Tasks
     private void DeleteTask()
     {
       Console.Clear();
@@ -187,7 +187,7 @@ namespace ConsoleApp
       NextKey();
     }
 
-    // Search Task using LINQ
+    // Search Tasks using LINQ
     private void SearchTask()
     {
       Console.Clear();
@@ -215,7 +215,7 @@ namespace ConsoleApp
       NextKey();
     }
 
-
+    // Helper method to wait for a key press
     private static void NextKey()
     {
       Console.WriteLine("\nDruk op een toets om verder te gaan...");
