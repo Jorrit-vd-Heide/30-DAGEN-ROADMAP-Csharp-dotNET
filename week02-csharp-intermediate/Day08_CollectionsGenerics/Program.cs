@@ -43,6 +43,7 @@ namespace Day08_CollectionsGenerics
         Console.WriteLine(item);
       }
     }
+    
     static void Main(string[] args)
     {
       Program program = new Program();
