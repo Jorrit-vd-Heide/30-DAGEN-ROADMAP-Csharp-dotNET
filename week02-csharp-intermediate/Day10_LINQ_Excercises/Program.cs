@@ -34,9 +34,8 @@ namespace ConsoleApp
         Console.WriteLine("3. Werk taak bij");
         Console.WriteLine("4. Verwijder een taak");
         Console.WriteLine("5. Zoek taken (LINQ)");
-        Console.WriteLine("6. Toon alleen voltooid of openstaande taken (LINQ)");
-        Console.WriteLine("7. Toon statistieken (LINQ)");
-        Console.WriteLine("8. Afsluiten");
+        Console.WriteLine("6. Toon statistieken (LINQ)");
+        Console.WriteLine("7. Afsluiten");
         Console.Write("Kies een optie: ");
 
         String choice = Console.ReadLine() ?? "";
@@ -58,12 +57,9 @@ namespace ConsoleApp
             SearchTask();
             break;
           case "6":
-            FilterTasks();
-            break;
-          case "7":
             ShowStats();
             break;
-          case "8":
+          case "7":
             return;
           default:
             Console.WriteLine("Ongeldige optie. Druk op een toets om opnieuw te proberen.");
@@ -123,6 +119,8 @@ namespace ConsoleApp
       Console.WriteLine("1. ID");
       Console.WriteLine("2. Titel (A-Z)");
       Console.WriteLine("3. Titel (Z-A)");
+      Console.WriteLine("4. Filteren op voltooid");
+      Console.WriteLine("5. Filteren op openstaand");
       Console.Write("Kies een optie: ");
 
       string sortChoice = Console.ReadLine() ?? "";
@@ -133,6 +131,9 @@ namespace ConsoleApp
         "1" => toDoList.OrderBy(t => t.Id),
         "2" => toDoList.OrderBy(t => t.Title),
         "3" => toDoList.OrderByDescending(t => t.Title),
+        "4" => toDoList.Where(t => t.IsCompleted),
+        "5" => toDoList.Where(t => !t.IsCompleted),
+
         _ => sortedList
       };
 
@@ -142,38 +143,6 @@ namespace ConsoleApp
       }
 
       NextKey();
-    }
-
-    // Filter Tasks using LINQ
-    private void FilterTasks()
-    {
-      Console.Clear();
-      Console.WriteLine("=== Filter taken ===");
-      Console.WriteLine("1. Alleen voltooid");
-      Console.WriteLine("2. Alleen openstaand");
-      Console.Write("Kies een optie: ");
-
-      String choice = Console.ReadLine() ?? "";
-
-      var filteredList = choice switch
-      {
-        "1" => toDoList.Where(t => t.IsCompleted),
-        "2" => toDoList.Where(t => !t.IsCompleted),
-        _ => Enumerable.Empty<ToDoItem>()
-      };
-
-      if (!filteredList.Any())
-      {
-        Console.WriteLine("Ongeldige optie.");
-      }
-      else
-      {
-        foreach (var item in filteredList)
-        {
-          Console.WriteLine(item.ToString());
-        }
-        NextKey();
-      }
     }
 
     // Update Tasks
