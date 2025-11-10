@@ -61,7 +61,7 @@ Na deze roadmap kun je:
 | 11 | Async & await | Bouw mini “API call simulator” met `Task.Delay`. | — |
 | 12 | File I/O | Lees/schrijf ToDo’s naar tekstbestand. | [File IO in C#](https://learn.microsoft.com/en-us/dotnet/standard/io/) |
 | 13 | Dependency Injection (DI) | Gebruik DI om services in te pluggen. | [Dependency Injection basics](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) |
-| 14 | Projectdag: CLI Weather App | Console-app die weer-data ophaalt via API (OpenWeatherMap). | [Tutorial: Create a controller-based web API with ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-9.0&tabs=visual-studio) |
+| 14 | Projectdag: CLI Weather App | Console-app die weer-data ophaalt via API. | [Tutorial: Create a controller-based web API with ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-9.0&tabs=visual-studio) |
 
 ---
 
