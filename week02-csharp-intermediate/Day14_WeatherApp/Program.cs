@@ -1,12 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using Day14_WeatherApp.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddHttpClient();
 builder.Services.AddOpenApi();
-builder.Services.AddDbContext<TodoContext>(opt =>
-    opt.UseInMemoryDatabase("TodoList"));
 
 // <snippet_UseSwagger>
 var app = builder.Build();
