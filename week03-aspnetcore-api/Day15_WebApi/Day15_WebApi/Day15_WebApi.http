@@ -14,3 +14,12 @@ Content-Type: application/json
 }
 
 ###
+
+GET {{Day15_WebApi_HostAddress}}/api/todoitems
+
+###
+
+@id=1
+GET {{Day15_WebApi_HostAddress}}/api/todoitems/{{id}}
+
+###
