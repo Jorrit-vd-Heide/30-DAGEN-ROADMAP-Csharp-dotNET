@@ -20,7 +20,7 @@ public class WeatherForecastController : ControllerBase
     public async Task<IActionResult> GetExternalWeatherData([FromQuery] string location)
     {
         //string location = "Nieuwehorne, FR, NL";
-        string apiKey = "YMJVAUWFMDHAY26KR9489XG6Y";
+        string apiKey = "";
         string url = $"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{Uri.EscapeDataString(location)}?unitGroup=metric&include=days,hours,current&key={apiKey}&contentType=json";
 
         try
