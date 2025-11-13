@@ -1,0 +1,16 @@
+@Day15_WebApi_HostAddress = https://localhost:7105
+
+GET {{Day15_WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{Day15_WebApi_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  "name": "walk dog",
+  "isComplete": true
+}
+
+###
