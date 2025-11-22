@@ -40,3 +40,7 @@ GET {{day15_webapi_HostAddress}}/pizza/4
 Accept: application/json
 
 ###
+
+DELETE {{day15_webapi_HostAddress}}/pizza/5
+
+###
