@@ -61,7 +61,6 @@ Accept: application/json
 POST {{day15_webapi_HostAddress}}/books/
 Content-Type: application/json
 {
-  "id": 3,
   "title": "Moby-Dick",
   "author": "Herman Melville",
   "year": 1851
@@ -69,10 +68,9 @@ Content-Type: application/json
 
 ###
 
-PUT {{day15_webapi_HostAddress}}/books/2
+POST {{day15_webapi_HostAddress}}/books/
 Content-Type: application/json
 {
-  "id": 2,
   "title": "The Pragmatic Programmer",
   "author": "Andrew Hunt & Jorrit vd Heide",
   "year": 1999
@@ -80,7 +78,17 @@ Content-Type: application/json
 
 ###
 
-DELETE {{day15_webapi_HostAddress}}/books/4
+PUT {{day15_webapi_HostAddress}}/books/10
+Content-Type: application/json
+{
+  "title": "The Pragmatic Programmer",
+  "author": "Henk Bergsma & Jorrit vd Heide",
+  "year": 1999
+}
+
+###
+
+DELETE {{day15_webapi_HostAddress}}/books/6
 Accept: application/json
 
 ###
