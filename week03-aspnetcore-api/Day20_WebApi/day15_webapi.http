@@ -69,7 +69,7 @@ Content-Type: application/json
 
 ###
 
-POST {{day15_webapi_HostAddress}}/books/
+PUT {{day15_webapi_HostAddress}}/books/2
 Content-Type: application/json
 {
   "id": 2,
@@ -80,18 +80,7 @@ Content-Type: application/json
 
 ###
 
-POST {{day15_webapi_HostAddress}}/books/
-Content-Type: application/json
-{
-  "id": 1,
-  "title": "The Pragmatic Programmer",
-  "author": "Henk Bergsma & Jorrit vd Heide",
-  "year": 1999
-}
-
-###
-
-DELETE {{day15_webapi_HostAddress}}/books/3
+DELETE {{day15_webapi_HostAddress}}/books/4
 Accept: application/json
 
 ###
