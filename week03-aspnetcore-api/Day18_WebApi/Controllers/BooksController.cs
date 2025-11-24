@@ -1,6 +1,5 @@
 using Day15_WebApi.Models;
 using Day15_WebApi.Services;
-using Day15_WebApi.Database;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Day15_WebApi.Controllers;

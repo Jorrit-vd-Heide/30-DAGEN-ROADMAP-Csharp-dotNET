@@ -1,4 +1,5 @@
 using Day15_WebApi.Database;
+using Day15_WebApi.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,7 @@ builder.Services.AddDbContext<BookContext>(options =>
 
 // Add services to the container.
 
+builder.Services.AddScoped<BookService>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

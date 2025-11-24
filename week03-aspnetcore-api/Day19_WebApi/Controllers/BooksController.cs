@@ -1,6 +1,5 @@
 using Day15_WebApi.Models;
 using Day15_WebApi.Services;
-using Day15_WebApi.Database;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Day15_WebApi.Controllers;
@@ -9,65 +8,64 @@ namespace Day15_WebApi.Controllers;
 [Route("[controller]")]
 public class BooksController : ControllerBase
 {
-    private readonly BookContext _context;
+    // Declare a private field for the service
+    private readonly BookService _bookService;
 
-    public BooksController(BookContext context)
+    // Constructor to receive the injected BookService
+    public BooksController(BookService bookService)
     {
-        _context = context;
+        _bookService = bookService;
     }
 
     // GET: api/books
     [HttpGet]
-    public ActionResult<List<Book>> GetAll() =>
-           => _context.Books.ToList();
-
+    public async Task<ActionResult<List<Book>>> GetAll() =>
+        await _bookService.GetAllAsync();
 
     // GET: api/books/{id}
     [HttpGet("{id}")]
-    public ActionResult<Book> Get(int id)
+    public async Task<ActionResult<Book>> Get(int id)
     {
-        var book = _context.Books.Find(id);
-        if (book == null)
+        var book = await _bookService.GetAsync(id);
+        if (book is null)
             return NotFound();
         return book;
     }
 
     // POST: api/books
     [HttpPost]
-    public ActionResult<Book> Create(Book book)
+    public async Task<ActionResult<Book>> Create(Book book)
     {
-        _context.Books.Add(book);
-        _context.SaveChanges(); 
-
+        await _bookService.AddAsync(book);
+        // Ensure you return the created item with its new ID
         return CreatedAtAction(nameof(Get), new { id = book.Id }, book);
     }
 
     // PUT: api/books/{id}
     [HttpPut("{id}")]
-    public IActionResult Update(int id, Book book)
+    public async Task<IActionResult> Update(int id, Book book)
     {
         if (id != book.Id)
             return BadRequest();
-        if (!_context.Books.Any(b => b.Id == id))
+
+        var existingBook = await _bookService.GetAsync(id);
+        if (existingBook is null)
+            // Use NotFoundResult for a PUT to a non-existent resource
             return NotFound();
 
-        _context.Update(book);
-        _context.SaveChanges();
+        await _bookService.UpdateAsync(book);
         return NoContent();
     }
 
-
     // DELETE: api/books/{id}
     [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
-        var book = _context.Book.Find(id);
-        if (book == null) 
+        var book = await _bookService.GetAsync(id);
+        if (book is null)
             return NotFound();
 
-        _context.Book.Remove(book);
-        _context.SaveChanges();
-
+        await _bookService.DeleteAsync(id);
         return NoContent();
     }
 }

@@ -1,45 +1,47 @@
 using Day15_WebApi.Models;
+using Day15_WebApi.Database;
+using Microsoft.EntityFrameworkCore;
 
 namespace Day15_WebApi.Services;
 
-public static class BookService
+public class BookService
 {
-    static List<Book> Books {  get; }
-    static int nextId = 3;
-    static BookService()
+    private readonly BookContext _context;
+
+    // Inject the database context
+    public BookService(BookContext context)
     {
-        Books = new List<Book>
-        {
-            new Book { Id = 1, Title = "Clean Code", Author = "Robert C. Martin", Year = 2008 },
-            new Book { Id = 2, Title = "The Pragmatic Programmer", Author = "Andrew Hunt & David Thomas", Year = 1999 }
-        };
+        _context = context;
     }
 
-    public static List<Book> GetAll() => Books;
+    public async Task<List<Book>> GetAllAsync() => await _context.Books.ToListAsync();
 
-    public static Book? Get(int id) => Books.FirstOrDefault(b => b.Id == id);
+    public async Task<Book?> GetAsync(int id) => await _context.Books.FirstOrDefaultAsync(b => b.Id == id);
 
-    public static void Add(Book book)
+    public async Task AddAsync(Book book)
     {
-        book.Id = nextId++;
-        Books.Add(book);
+        _context.Books.Add(book);
+        await _context.SaveChangesAsync();
     }
 
-    public static void Delete(int id)
+    public async Task DeleteAsync(int id)
     {
-        var book = Get(id);
+        var book = await GetAsync(id);
         if (book is null)
             return;
 
-        Books.Remove(book);
+        _context.Books.Remove(book);
+        await _context.SaveChangesAsync();
     }
 
-    public static void Update(Book book)
+    public async Task UpdateAsync(Book book)
     {
-        var index = Books.FindIndex(b => b.Id == book.Id);
-        if (index == -1)
+        var existingBook = await GetAsync(book.Id);
+        if (existingBook is null)
             return;
 
-        Books[index] = book; 
+        // Update properties or attach the entity
+        _context.Entry(existingBook).CurrentValues.SetValues(book);
+        await _context.SaveChangesAsync();
     }
 }
