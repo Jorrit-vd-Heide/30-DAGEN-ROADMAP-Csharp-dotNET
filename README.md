@@ -105,8 +105,6 @@ Na deze roadmap kun je:
 - Data beheren via **Entity Framework Core**  
 - Unit tests schrijven met **xUnit** & **Moq**  
 - **Clean Architecture** toepassen  
-- Projecten hosten op **GitHub** of **Azure**  
-
 ---
 
 # 🧠 Bonus Tips
