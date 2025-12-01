@@ -86,7 +86,7 @@ Na deze roadmap kun je:
 | Dag | Onderwerp | Oefening | Bronnen |
 |-----|------------|-----------|----------|
 | 22 | Unit testing basics (xUnit) | Test eenvoudige methodes. | [xUnit Tutorial](https://xunit.net/docs/getting-started/netcore/cmdline) |
-| 23 | Unit testing | Test je `BookService` met xUnit. | [xUnit](https://xunit.net/index.html?tabs=cs)) |
+| 23 | Unit testing | Test je `BookService` met xUnit. | [xUnit](https://xunit.net/index.html?tabs=cs) |
 | 24 | Logging & configuration | Voeg Serilog toe aan API. | [Serilog Docs](https://serilog.net/) |
 | 25 | Clean Architecture principes | Scheid API, Core, Data lagen. | [Clean Architecture in .NET (Jason Taylor)](https://github.com/jasontaylordev/CleanArchitecture) |
 | 26 | Git & GitHub | Maak repo aan, commit BookStore API met readme. | [GitHub Guide](https://guides.github.com/) |
